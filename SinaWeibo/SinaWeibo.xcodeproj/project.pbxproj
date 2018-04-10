@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D72FA933207D09BD009FD61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FA932207D09BD009FD61E /* AppDelegate.swift */; };
-		D72FA935207D09BD009FD61E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72FA934207D09BD009FD61E /* ViewController.swift */; };
-		D72FA938207D09BD009FD61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72FA936207D09BD009FD61E /* Main.storyboard */; };
 		D72FA93A207D09BD009FD61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72FA939207D09BD009FD61E /* Assets.xcassets */; };
 		D72FA93D207D09BD009FD61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72FA93B207D09BD009FD61E /* LaunchScreen.storyboard */; };
+		D72FA945207D0E46009FD61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72FA944207D0E46009FD61E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D72FA92F207D09BD009FD61E /* SinaWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72FA932207D09BD009FD61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D72FA934207D09BD009FD61E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D72FA937207D09BD009FD61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D72FA939207D09BD009FD61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72FA93C207D09BD009FD61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D72FA93E207D09BD009FD61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72FA944207D0E46009FD61E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +53,60 @@
 			isa = PBXGroup;
 			children = (
 				D72FA932207D09BD009FD61E /* AppDelegate.swift */,
-				D72FA934207D09BD009FD61E /* ViewController.swift */,
-				D72FA936207D09BD009FD61E /* Main.storyboard */,
+				D72FA946207D0E5D009FD61E /* Classes */,
+				D72FA944207D0E46009FD61E /* Main.storyboard */,
 				D72FA939207D09BD009FD61E /* Assets.xcassets */,
 				D72FA93B207D09BD009FD61E /* LaunchScreen.storyboard */,
 				D72FA93E207D09BD009FD61E /* Info.plist */,
 			);
 			path = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		D72FA946207D0E5D009FD61E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D72FA947207D0E5D009FD61E /* Discover */,
+				D72FA948207D0E5D009FD61E /* Home */,
+				D72FA949207D0E5D009FD61E /* Main */,
+				D72FA94A207D0E5D009FD61E /* Message */,
+				D72FA94B207D0E5D009FD61E /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D72FA947207D0E5D009FD61E /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		D72FA948207D0E5D009FD61E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D72FA949207D0E5D009FD61E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D72FA94A207D0E5D009FD61E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		D72FA94B207D0E5D009FD61E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +168,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72FA945207D0E46009FD61E /* Main.storyboard in Resources */,
 				D72FA93D207D09BD009FD61E /* LaunchScreen.storyboard in Resources */,
 				D72FA93A207D09BD009FD61E /* Assets.xcassets in Resources */,
-				D72FA938207D09BD009FD61E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72FA935207D09BD009FD61E /* ViewController.swift in Sources */,
 				D72FA933207D09BD009FD61E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +188,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D72FA936207D09BD009FD61E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D72FA937207D09BD009FD61E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D72FA93B207D09BD009FD61E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -274,8 +310,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26AN5VRCVF;
 				INFOPLIST_FILE = SinaWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.SinaWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,8 +327,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26AN5VRCVF;
 				INFOPLIST_FILE = SinaWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.qimu.SinaWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
